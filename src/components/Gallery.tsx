@@ -50,7 +50,7 @@ export default function Gallery() {
               <img
                 src={image.url}
                 alt={image.url}
-                className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
               />
 
               <div className="absolute bottom-0 left-0 right-0 p-6 z-20 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
